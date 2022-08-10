@@ -1,0 +1,4 @@
+*.fasta
+result/human/para/300_30_128/*.txt
+result/human/para/300_30_256/*.txt
+result/mouse/para/300_40_256/*.txt
