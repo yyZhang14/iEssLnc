@@ -1,12 +1,7 @@
 # PredEssLnc: Identification and prediction of essential lncRNA genes based on heterogeneous network embedding representation.
 
----
-
-
-
 In this work, we proposed a method to identify essential lncRNAs by taking full advantage of the topological feature of the lncRNA-protein heterogeneous network and lncRNA sequence information. We used lncRNA sequence information to select reliable negative samples and introduced the metapath2vec algorithm to learn low-dimensional embedding representation for lncRNAs in the lncRNA-protein heterogeneous network. We named this method as PredEssLnc(Predict essential lncRNAs). 
 
----
 
 ## 1. File descriptions
 ### 1.1 data
@@ -21,6 +16,7 @@ In this work, we proposed a method to identify essential lncRNAs by taking full 
    - mouse_dataset1.csv: Positive:negative =1:1 in mouse dataset using "random" strategy.
    - mouse_dataset2.csv: Positive:negative =1:1 in mouse dataset using "random" strategy.
    -  para_random.xlsx:  Compare the performance of different data sets under different strategies.
+   
 - human
    - eng.csv: Minimum free energy of secondary structure of sequences.
    - essential.csv : 154 human essential lncRNAs in PredEssLnc method.
@@ -99,22 +95,38 @@ the same vector file for each node in text format 	(e.g., out_mouse_300_40.txt)
 ```
 ### 1.4 model
 **cnn_human.py**
+
 The CNN  model of human datasets.
+
 **cnn_mouse.py**
+
 The CNN model of mouse datasets.
+
 **compare.py**
+
 In human datasets, select 61 essential lncRNAs as test set, remaining lncRNAs in H1 and H2 datasets as train set respectively.
 In mouse datasets, select 7 essential lncRNA as test set, remaining lncRNAs in M1 and M2 datasets as train set respectively.
+
 **figure.py**
+
 Plot  ROC curves of SVM, CNN and RF models in H1 , H2 , M1 and M2 datasets.
+
 **para_figure.py**
+
 Plot figure ： the performance comparison of the metapath2vec algorithm under different parameters in different data sets.
+
 **para_svm.py**
+
 Plot figure: The performance comparison of SVM model under different parameters in different data sets.
+
 **rf.py**
+
 The RF model of human and mouse datasets.
+
 **svm.py**
+
 The SVM model of human and mouse datasets.
+
 ### 1.5 pre
 
 - cal_gic.py
