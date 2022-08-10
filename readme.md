@@ -1,4 +1,4 @@
-**PredEssLnc: Identification and prediction of essential lncRNA genes based on heterogeneous network embedding representation.**
+# PredEssLnc: Identification and prediction of essential lncRNA genes based on heterogeneous network embedding representation.
 
 ---
 
@@ -180,4 +180,4 @@ User can run `rf.py` , set max_depth=9, n_estimators=50, random_state=0 in RF mo
 We constructed a CNN model which contained two convolutional layers. In human , users can run `cnn_human.py`; In mouse, users can run `cnn_mouse.py`.
 ### 2.5 Other
 The `compare.py` is used for comparison experiments with the SGII method. 
-# PredEssLnc
+

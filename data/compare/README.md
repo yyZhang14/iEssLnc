@@ -8,5 +8,5 @@
 - Mouse.xlsx: Mouse essential lncRNA in Section 3.4 Comparison with state-of-arts methods
 - mouse_dataset1.csv: Positive:negative =1:1 in mouse dataset
 - mouse_dataset2.csv: Positive:negative =1:1 in mouse dataset
-- para_random.xlsx: 
+- para_random.xlsx: Compare the performance of different data sets under different strategies.
 # 
