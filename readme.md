@@ -6,7 +6,7 @@ In this work, we proposed a method to identify essential lncRNAs by taking full 
 ## 1. File descriptions
 ### 1.1 data
 
-- compare
+**compare**
 > The "GIC" method and “random”method select negative samples, and compare the performance of different data sets under different strategies.
 
    - Human.xlsx : 61 human essential lncRNAs in Section 3.4 Comparison with state-of-arts methods
@@ -17,7 +17,8 @@ In this work, we proposed a method to identify essential lncRNAs by taking full 
    - mouse_dataset2.csv: Positive:negative =1:1 in mouse dataset using "random" strategy.
    -  para_random.xlsx:  Compare the performance of different data sets under different strategies.
    
-- human
+
+**human**
    - eng.csv: Minimum free energy of secondary structure of sequences.
    - essential.csv : 154 human essential lncRNAs in PredEssLnc method.
    - id_lncRNA.txt:  The ID number of lncRNA. In order to distinguish it from protein, lncRNA name needs to be prefixed with "l".
@@ -26,7 +27,8 @@ In this work, we proposed a method to identify essential lncRNAs by taking full 
    - LPI.csv : LncRNA-protein interaction (LPI) data.
    - ncName_ncID_transID.csv: Name, ID, and transcript ID of lncRNAs.
    - transcripts_seq.fasta: Transcriptional sequence of lncRNAs.
-- mouse
+
+**mouse**
    - eng.csv: Minimum free energy of secondary structure of sequences.
    - essential.csv : Mouse essential lncRNAs in PredEssLnc method.
    - id_lncRNA.txt:  The ID number of lncRNA. In order to distinguish it from protein, lncRNA name needs to be prefixed with "l".
@@ -35,6 +37,7 @@ In this work, we proposed a method to identify essential lncRNAs by taking full 
    - LPI.csv : LncRNA-protein interaction (LPI) data.
    - ncName_ncID_transID.csv: Name, ID, and transcript ID of lncRNAs.
    - transcripts_seq.fasta: Transcriptional sequence of lncRNAs.
+  
 ### 1.2 img
 All pictures in paper.
 ### 1.3 metapath
