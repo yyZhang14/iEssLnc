@@ -1,1 +1,4 @@
-result/human/para/300_30_128/out_human_300_30.txt filter=lfs diff=lfs merge=lfs -text
+result/mouse/para/400_100_64/out_mouse_400_100.txt filter=lfs diff=lfs merge=lfs -text
+result/human/para/300_30_256/out_human_300_30.txt filter=lfs diff=lfs merge=lfs -text
+data/mouse/transcripts_seq.fasta filter=lfs diff=lfs merge=lfs -text
+data/human/transcripts_seq.fasta filter=lfs diff=lfs merge=lfs -text
