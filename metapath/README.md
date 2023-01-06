@@ -1,7 +1,7 @@
 ## Files
 - genMetaPaths.py ： This file needs to run in the Linux environment. The operation instructions are as follows:
 ```bash
-./genMetaPaths. py 1000 100 ../data/mouse in_ mouse_ 1000_ 100.txt
+./genMetaPaths. py 1000 100 ../data/mouse in_mouse_1000_100.txt
 
 # ./ means to run the python file
 

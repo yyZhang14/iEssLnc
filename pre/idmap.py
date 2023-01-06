@@ -8,7 +8,6 @@ def read_predata(dirPath):
     p=list(data["protein"])
 
     print(len(data),len(lnc),len(pro))
-    # 生成字典
     id_lnc={}
     id_pro={}
 
